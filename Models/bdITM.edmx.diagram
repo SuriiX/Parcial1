@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="49b8a8b76cb749d3aa0cb0bf5eb9601d" Name="Diagram1">
+        <EntityTypeShape EntityType="ITMModel.Agencia" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITMModel.Cliente" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITMModel.Computador" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITMModel.TipoComputador" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ITMModel.Venta" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="ITMModel.FK_Venta_Agencia" ManuallyRouted="false" />
+        <AssociationConnector Association="ITMModel.FK_Venta_Cliente" ManuallyRouted="false" />
+        <AssociationConnector Association="ITMModel.FK_Computador_TipoComputador" ManuallyRouted="false" />
+        <AssociationConnector Association="ITMModel.FK_Venta_Computador" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
